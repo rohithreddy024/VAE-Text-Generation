@@ -7,14 +7,14 @@ Implementation of "Generating Sentences from a Continuous Space" paper using pyt
 * Torchtext 0.2.0
 
 ## Data
-Data can be found at ```data/imdb``` where I have splitted imdb review paras into sentences, picked those with word count more than 5 and less than 20, splitted them into train set and test set based on 7:3 ratio. In total, there are around 5.5 lakh training sentences and 2.4 testing sentences
+Data can be found at ```data/imdb``` where I have splitted imdb review paras into sentences, picked those with word count more than 5 and less than 20, splitted them into train set and test set based on 7:3 ratio. In total, there are around 5.5 lakh training sentences and 2.4 lakh testing sentences
 
 ## Training
 To train the model from the beginning, run:
 ```
 python main.py
 ```
-To resume resume training from a saved model, run:
+To resume training from a saved model, run:
 ```
 python main.py --resume_training=True
 ```
