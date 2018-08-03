@@ -14,7 +14,7 @@ To train the model from the beginning, run:
 ```
 python main.py
 ```
-To resume resume training from a saved, run:
+To resume resume training from a saved model, run:
 ```
 python main.py --resume_training=True
 ```
