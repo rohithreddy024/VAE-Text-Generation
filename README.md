@@ -27,6 +27,9 @@ python main.py --to_train=False
 Notice that if you try to generate a sample from model which is not trained enough, it might generate sentences with words greater than 20.
 
 ### Samples with default configuration and after 120 epochs:
+&lt;sos&gt; i highly recommend this movie for horror fans. &lt;eos&gt;  
+&lt;sos&gt; these are not what kids will always like. &lt;eos&gt;  
+&lt;sos&gt; but for me alone 3 d enough to make it more excellent effects than the first &lt;unk&gt; &lt;eos&gt;  
 &lt;sos&gt; they still &lt;unk&gt; young children. &lt;eos&gt;  
 &lt;sos&gt; so the movie has all those ways home take your parents kids to watch it. &lt;eos&gt;  
 &lt;sos&gt; better on for the three for good disgusting stuff. &lt;eos&gt;  
@@ -45,7 +48,6 @@ Notice that if you try to generate a sample from model which is not trained enou
 &lt;sos&gt; this film is not for everybody. &lt;eos&gt;  
 &lt;sos&gt; actually he is not as witty as he can be a person &lt;unk&gt; a &lt;unk&gt; police &lt;unk&gt; &lt;eos&gt;  
 &lt;sos&gt; his dialogue was a bit stiff and heavy of the film. &lt;eos&gt;  
-&lt;sos&gt; i highly recommend this movie for horror fans. &lt;eos&gt;  
 &lt;sos&gt; there is not much excitement here. &lt;eos&gt;  
 &lt;sos&gt; it should not be a sequel. &lt;eos&gt;  
 &lt;sos&gt; controversy is a blockbuster that has gone through and that what a surprise to it. &lt;eos&gt;  
@@ -57,7 +59,5 @@ Notice that if you try to generate a sample from model which is not trained enou
 &lt;sos&gt; this does not star kurt russell but &lt;unk&gt; allows him what amounts to an extended cameo. &lt;eos&gt;  
 &lt;sos&gt; but when it fun for what it is. &lt;eos&gt;  
 &lt;sos&gt; every single theme is the same. &lt;eos&gt;  
-&lt;sos&gt; but for me alone 3 d enough to make it more excellent effects than the first &lt;unk&gt; &lt;eos&gt;  
-&lt;sos&gt; these are not what kids will always like. &lt;eos&gt;  
 &lt;sos&gt; right and filled with a &lt;unk&gt; uncomfortable moments. &lt;eos&gt;  
-&lt;sos&gt; there are always familiar faces in the superman 2004 . &lt;eos&gt;   
+&lt;sos&gt; there are always familiar faces in the superman 2004 . &lt;eos&gt;  
