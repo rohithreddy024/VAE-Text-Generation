@@ -104,7 +104,7 @@ def training():
         for batch in train_iter:
             x = batch.text 	                                #Used as encoder input as well as target output for generator
             G_inp = create_generator_input(x, train = True)
-            rec_loss, kl_loss = train_batch(x, G_inp, step, train=True)
+            rec_loss, kl_loss = train_batch(get_cuda(x), get_cuda(G_inp), step, train=True)
             train_rec_loss.append(rec_loss)
             train_kl_loss.append(kl_loss)
             step += 1
@@ -116,7 +116,7 @@ def training():
             x = batch.text
             G_inp = create_generator_input(x, train = False)
             with T.autograd.no_grad():
-                rec_loss, kl_loss = train_batch(x, G_inp, step, train=False)
+                rec_loss, kl_loss = train_batch(get_cuda(x), get_cuda(G_inp), step, train=False)
             valid_rec_loss.append(rec_loss)
             valid_kl_loss.append(kl_loss)
 
